@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#ilustracao{
+    height: 100%;
+}
+
+#logo{
+    position: absolute;
+    height: 10vh;
+}
+
+#span-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#span-container span{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #EC632B;
+}
+
+/* css dos buttoes  */
+
+button.green_button {
+
+    width: 200px;
+    height: 40px;
+    font-family:'Inter' ;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+    background-color: #99E33B;
+    border-radius: 20px;
+}
+
+button.green_button:hover{
+    
+    background-color: #91ff00;
+
+}
+
+button.gray_button{
+    background-color: #E9E9E9;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 15px;
+    padding: 5px 20px;
+    font-weight: 800px;
+}
+button.gray_button:hover{
+    background-color: rgb(172, 168, 168);
+}
+

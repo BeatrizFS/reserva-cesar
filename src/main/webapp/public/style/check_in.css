@@ -1,0 +1,109 @@
+header{
+    position: absolute;
+}
+
+.cesar_logo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.cesar_logo img {
+    width: 10vh;
+    padding: 20px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+section .face_image {
+    height: 22vh;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;    
+    margin: 20px;
+}
+
+section .face_image img{
+    height: 22vh;
+
+}
+
+.checkin {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.checkin .checkin_title {
+    font-family: 'Inter';
+    color: #EC632B;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.checkin .checkin_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkin_description {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #EC632B;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+table {
+    margin: 10px auto;
+    border: 0.5px solid black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+th, td {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+td {
+    padding: 5px 48px;
+    font-weight: 400;
+}
+
+table thead tr th {
+    font-size: 24px;
+}
+
+#map img{
+    height: 100vh;
+}
+
+.checkin_buttons button{
+    margin: 10px 0;
+}
